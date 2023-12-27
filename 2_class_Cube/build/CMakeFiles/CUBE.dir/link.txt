@@ -1,3 +1,0 @@
-C:\cmake-3.17.2-win64-x64\bin\cmake.exe -E rm -f CMakeFiles\CUBE.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\CUBE.dir/objects.a @CMakeFiles\CUBE.dir\objects1.rsp
-C:\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\CUBE.dir/objects.a -Wl,--no-whole-archive  -o CUBE.exe -Wl,--out-implib,libCUBE.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CUBE.dir\linklibs.rsp
