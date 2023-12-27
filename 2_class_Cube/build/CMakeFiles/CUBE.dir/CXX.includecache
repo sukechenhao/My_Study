@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/cube.h
+iostream
+-
+
+E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/main.cpp
+iostream
+-
+string
+-
+cube.h
+E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/cube.h
+

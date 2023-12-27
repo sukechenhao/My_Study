@@ -1,0 +1,59 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/mingw64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/3.17.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/mingw64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/3.17.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe cmTC_a0116/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a0116.dir\build.make CMakeFiles/cmTC_a0116.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0116.dir/testCCompiler.c.obj
+C:\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_a0116.dir\testCCompiler.c.obj   -c E:\SharedFolder\ability_promotion\C++\VSCode\2_class_Cube\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_a0116.exe
+C:\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a0116.dir\link.txt --verbose=1
+C:\cmake-3.17.2-win64-x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_a0116.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\cmTC_a0116.dir/objects.a @CMakeFiles\cmTC_a0116.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a0116.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a0116.exe -Wl,--out-implib,libcmTC_a0116.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a0116.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe cmTC_72e91/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_72e91.dir\build.make CMakeFiles/cmTC_72e91.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72e91.dir/testCXXCompiler.cxx.obj
+C:\mingw64\bin\g++.exe     -o CMakeFiles\cmTC_72e91.dir\testCXXCompiler.cxx.obj -c E:\SharedFolder\ability_promotion\C++\VSCode\2_class_Cube\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_72e91.exe
+C:\cmake-3.17.2-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_72e91.dir\link.txt --verbose=1
+C:\cmake-3.17.2-win64-x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_72e91.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\cmTC_72e91.dir/objects.a @CMakeFiles\cmTC_72e91.dir\objects1.rsp
+C:\mingw64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_72e91.dir/objects.a -Wl,--no-whole-archive  -o cmTC_72e91.exe -Wl,--out-implib,libcmTC_72e91.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_72e91.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/SharedFolder/ability_promotion/C++/VSCode/2_class_Cube/build/CMakeFiles/CMakeTmp'
+
+
+
